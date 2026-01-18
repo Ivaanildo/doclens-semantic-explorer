@@ -1,0 +1,5 @@
+{
+  "name": "DocLens AI v3",
+  "description": "Interactive chat-based PDF analyzer. Select regions, ask deep questions, and explore documents with a multimodal AI assistant.",
+  "requestFramePermissions": []
+}

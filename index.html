@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DocLens AI v3</title>
+    <script>
+      // Safe Polyfill process for browser compatibility
+      // We check if properties exist before creating them to avoid overwriting injected values
+      window.process = window.process || {};
+      window.process.env = window.process.env || {};
+      window.process.env.NODE_ENV = window.process.env.NODE_ENV || 'production';
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css" integrity="sha512-fHwaWebuwA7hF8Tp/c+w0EQLJ0Gq5qG9wVNMqO8JdZpGAN+z0YQd3fXqW4fO+gCg5tK5Q8oG5f5hD/0/0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <script>
+      // Configure PDF.js worker safely
+      if (window.pdfjsLib) {
+          window.pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+      }
+    </script>
+    <style>
+      /* Custom scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #cbd5e1;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #94a3b8;
+      }
+      
+      .markdown-body p {
+        margin-bottom: 0.75rem;
+      }
+      .markdown-body pre {
+        background: #1e293b;
+        color: #e2e8f0;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        overflow-x: auto;
+      }
+
+      /* Print styles for Export to PDF */
+      @media print {
+        body * {
+          visibility: hidden;
+        }
+        #chat-export-container, #chat-export-container * {
+          visibility: visible;
+        }
+        #chat-export-container {
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 100%;
+          margin: 0;
+          padding: 20px;
+          background: white;
+          color: black;
+        }
+        /* Hide UI elements in print */
+        button, textarea, .no-print {
+          display: none !important;
+        }
+      }
+
+      /* Markmap Container */
+      .markmap-container {
+        width: 100%;
+        min-height: 300px;
+        border: 1px solid #e2e8f0;
+        border-radius: 0.5rem;
+        overflow: hidden;
+        background: #f8fafc;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.31.0",
+    "react-markdown": "https://aistudiocdn.com/react-markdown@^10.1.0",
+    "rehype-katex": "https://aistudiocdn.com/rehype-katex@^7.0.1",
+    "remark-math": "https://aistudiocdn.com/remark-math@^6.0.0",
+    "markmap-lib": "https://esm.sh/markmap-lib@0.17.0?external=markmap-common",
+    "markmap-view": "https://esm.sh/markmap-view@0.17.0?external=markmap-common,d3",
+    "markmap-common": "https://esm.sh/markmap-common@0.17.0",
+    "d3": "https://esm.sh/d3@7.9.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
