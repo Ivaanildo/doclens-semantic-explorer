@@ -190,59 +190,6 @@ doclens-semantic-explorer/
       npm run test      # Executa testes (quando configurado)
       ```
 
-      ## 🤝 Contribuição
 
-      Contribuições são bem-vindas! Por favor:
-
-      1. **Fork** o projeto
-      2. 2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-         3. 3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-            4. 4. Push para a branch (`git push origin feature/AmazingFeature`)
-               5. 5. Abra um **Pull Request**
                  
-                  6. Para detalhes completos, veja [CONTRIBUTING.md](CONTRIBUTING.md)
-                 
-                  7. ### Padrões de Código
-                 
-                  8. - Use **TypeScript** rigorosamente (não use `any`)
-                     - - Siga **ESLint** e **Prettier** configuration
-                       - - Escreva testes para novas funcionalidades
-                         - - Mantenha componentes pequenos e focados
-                          
-                           - ## 🐛 Problemas Conhecidos
-                          
-                           - - [ ] Suporte a arquivos PDF com criptografia limitado
-                             - [ ] - [ ] Performance em PDFs > 100MB pode ser impactada
-                             - [ ] - [ ] Grafo semântico otimizado para até 500 nós
-                            
-                             - [ ] ## 🗺️ Roadmap
-                            
-                             - [ ] - [ ] Suporte a múltiplos idiomas
-                             - [ ] - [ ] Exportar análises em PDF/JSON
-                             - [ ] - [ ] Integração com mais modelos de IA
-                             - [ ] - [ ] Editor de anotações avançado
-                             - [ ] - [ ] Compartilhamento de documentos
-                             - [ ] - [ ] Sincronização em nuvem
-                            
-                             - [ ] ## 📝 Licença
-                            
-                             - [ ] Este projeto é licenciado sob a [MIT License](LICENSE) - veja o arquivo [LICENSE](LICENSE) para detalhes.
-                            
-                             - [ ] ## 👤 Autor
-                            
-                             - [ ] **Ivaanildo**
-                             - [ ] - GitHub: [@Ivaanildo](https://github.com/Ivaanildo)
-                            
-                             - [ ] ## 🙏 Agradecimentos
-                            
-                             - [ ] - [Google Gemini AI](https://ai.studio) pelo poder de IA
-                             - [ ] - [React](https://reactjs.org/) e [TypeScript](https://www.typescriptlang.org/) pelas ferramentas
-                             - [ ] - [Vite](https://vitejs.dev/) pelo excelente build tool
-                            
-                             - [ ] ## 📞 Suporte
-                            
-                             - [ ] Encontrou um problema? Abra uma [Issue](https://github.com/Ivaanildo/doclens-semantic-explorer/issues)
-                            
-                             - [ ] ---
-                            
-                             - [ ] **Última atualização:** Janeiro de 2026 | **Versão:** 1.0.0
+                
