@@ -1,4 +1,4 @@
-# DocLens Semantic Explorer 🔍
+# DocLens Semantic Explorer 
 
 > **AI-powered PDF analysis platform with interactive chat, semantic knowledge graphs, and visual annotations**
 >
@@ -189,6 +189,34 @@ doclens-semantic-explorer/
       npm run format    # Formata código com Prettier (quando configurado)
       npm run test      # Executa testes (quando configurado)
       ```
+
+## 🤝 Contribuição
+
+Contribuições são bem-vindas! Para contribuir:
+
+1. Fork o projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/MinhaFeature`)
+3. Commit suas mudanças (`git commit -m 'Adiciona MinhaFeature'`)
+4. Push para a branch (`git push origin feature/MinhaFeature`)
+5. Abra um Pull Request
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## 👨‍💻 Autor
+
+**Ivaanildo**
+
+- GitHub: [@Ivaanildo](https://github.com/Ivaanildo)
+
+## 📧 Contato
+
+Para dúvidas ou sugestões, sinta-se à vontade para abrir uma issue no repositório.
+
+---
+
+Feito com ❤️ por [Ivaanildo](https://github.com/Ivaanildo)
 
 
                  
