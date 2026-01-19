@@ -8,7 +8,7 @@
 > [![Vite](https://img.shields.io/badge/Vite-6.2-purple?style=flat-square&logo=vite)](https://vitejs.dev/)
 > [![Node.js](https://img.shields.io/badge/Node.js-Required-green?style=flat-square&logo=node.js)](https://nodejs.org/)
 >
-> ## 📋 Sumário
+## Sumário
 >
 > - [Características](#características)
 > - - [Requisitos](#requisitos)
@@ -20,7 +20,7 @@
 >             - - [Contribuição](#contribuição)
 >               - - [Licença](#licença)
 >                
->                 - ## ✨ Características
+                - ## Características
 >                
 >                 - DocLens Semantic Explorer é uma plataforma inovadora de análise de PDF que combina IA com visualização de dados:
 >                
